@@ -1,1 +1,67 @@
 # Portfolio-Website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+        }
+        h1, h2 {
+            margin: 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+    </nav>
+
+    <section id="home">
+        <h1>Home</h1>
+        <p>Welcome to my portfolio website! Here you can find information about me and my projects.</p>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>I am a dedicated professional with a passion for technology and design. My expertise includes web development, graphic design, and project management. I enjoy working on challenging projects that allow me to grow and learn new skills.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Here are some of the projects I have worked on:</p>
+        <ul>
+            <li>Project A - A web application for managing tasks.</li>
+            <li>Project B - An e-commerce website for selling products online.</li>
+            <li>Project C - A mobile app for tracking fitness and health goals.</li>
+        </ul>
+    </section>
+</body>
+</html>
